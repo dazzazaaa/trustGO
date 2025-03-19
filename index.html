@@ -3,68 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trustGO! - Trasporti Notturni Sicuri</title>
-    <style>
-        body {
-            background: linear-gradient(135deg, #2c003e, #001f4d, #0088cc);
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-top: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-        }
-        .button {
-            background-color: #ffcc00;
-            color: black;
-            padding: 15px;
-            font-size: 18px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            margin-top: 10px;
-        }
-        .form input, .form select, .form button {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 5px;
-        }
-        .driver-card {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px;
-            border-radius: 10px;
-            margin: 10px;
-        }
-    </style>
+    <title>trustGO!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>trustGO!</h1>
-    <p>Il tuo trasporto notturno sicuro negli orari notturni.</p>
+    <header>
+        <h1>Benvenuto su trustGO!</h1>
+        <p>Spostamenti sicuri e comodi, connessi alla tua tranquillità.</p>
+    </header>
 
-    <div class="container">
-        <h2>Prenota il tuo viaggio</h2>
-        <div class="form">
-            <input type="text" placeholder="Indirizzo di partenza" required>
-            <input type="text" placeholder="Destinazione" required>
-            <input type="datetime-local" required>
-        
-<nav>
-    <ul>
-        <li><a href="booking.html">Prenota</a></li>
-        <li><a href="chi-siamo.html">Chi Siamo</a></li>
-        <li><a href="contatti.html">Contatti</a></li>
-    </ul>
-</nav>
+    <section class="intro">
+        <h2>I nostri servizi</h2>
+        <p>trustGO! offre trasporti notturni sicuri per eventi come discoteche, cene aziendali e molto altro. Prenota in pochi clic direttamente dall'app!</p>
+    </section>
+
+    <section class="prenota-container">
+        <button class="btn-prenota">Prenota</button>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="booking.html">Prenota</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- Rimuovi la sezione dei driver -->
+    <!-- <div class="container">
+        <h2>I nostri driver</h2>
+        <div class="driver-card">
+            <p><strong>Nome:</strong> Marco Rossi</p>
+            <p><strong>Telefono:</strong> 333-1234567</p>
+            <p><strong>Auto:</strong> BMW Serie 3</p>
+        </div>
+        <div class="driver-card">
+            <p><strong>Nome:</strong> Laura Bianchi</p>
+            <p><strong>Telefono:</strong> 335-7654321</p>
+            <p><strong>Auto:</strong> Audi A4</p>
+        </div>
+    </div> -->
+
+    <footer>
+        <p>&copy; 2025 trustGO! - La mobilità del futuro, sicura e sostenibile.</p>
+    </footer>
+
 </body>
 </html>
