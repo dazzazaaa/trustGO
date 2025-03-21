@@ -73,41 +73,25 @@
     
     <!-- Elenco dei driver -->
     <div class="driver-card">
-      <p><strong>Nome:</strong> Marco Rossi</p>
-      <p><strong>Telefono:</strong> 333-1234567</p>
-      <p><strong>Auto:</strong> BMW Serie 3</p>
-      <button>Seleziona</button>
-      <div class="driver-reviews">
-        <h4>Recensioni</h4>
-        <div class="review">
-            <p><strong>Giulia P.</strong>: "Autista molto puntuale e disponibile, ottima esperienza!"</p>
-        </div>
-        <div class="review">
-            <p><strong>Luca M.</strong>: "Macchina pulita e guida sicura. Consigliato!"</p>
-        </div>
-        <div class="review">
-            <p><strong>Elisa T.</strong>: "Molto cordiale, viaggio piacevole. Servizio top!"</p>
-        </div>
-    </div>
+    <h3>Marco Rossi</h3>
+    <p><strong>Telefono:</strong> 333-1234567</p>
+    <p><strong>Auto:</strong> BMW Serie 3</p>
+    <button onclick="mostraRecensioni('marco')">Vedi Recensioni</button>
 </div>
-    
-    <div class="driver-card">
-      <p><strong>Nome:</strong> Laura Bianchi</p>
-      <p><strong>Telefono:</strong> 335-7654321</p>
-      <p><strong>Auto:</strong> Audi A4</p>
-      <button>Seleziona</button>
-      <div class="driver-reviews">
-        <h4>Recensioni</h4>
-        <div class="review">
-            <p><strong>Andrea G.</strong>: "Viaggio confortevole, autista molto gentile!"</p>
-        </div>
-        <div class="review">
-            <p><strong>Sara L.</strong>: "Ottima guida e disponibilità, la sceglierei di nuovo!"</p>
-        </div>
-        <div class="review">
-            <p><strong>Francesco D.</strong>: "Macchina in perfetto stato, servizio impeccabile!"</p>
-        </div>
-    </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
+
+<div class="driver-card">
+    <h3>Laura Bianchi</h3>
+    <p><strong>Telefono:</strong> 335-7654321</p>
+    <p><strong>Auto:</strong> Audi A4</p>
+    <button onclick="mostraRecensioni('laura')">Vedi Recensioni</button>
+</div> 
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
 </div>
     
     <div class="driver-card">
@@ -116,6 +100,10 @@
       <p><strong>Auto:</strong> Mercedes C-Class</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Ana García</p>
@@ -123,6 +111,10 @@
       <p><strong>Auto:</strong> Seat Leon</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Chen Wei</p>
@@ -130,6 +122,10 @@
       <p><strong>Auto:</strong> Toyota Corolla</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Kumar Patel</p>
@@ -137,6 +133,10 @@
       <p><strong>Auto:</strong> Hyundai Elantra</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Fatima Zahra</p>
@@ -144,6 +144,10 @@
       <p><strong>Auto:</strong> Renault Clio</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Olga Ivanova</p>
@@ -151,6 +155,10 @@
       <p><strong>Auto:</strong> Lada Vesta</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Sofia Martins</p>
@@ -158,6 +166,10 @@
       <p><strong>Auto:</strong> Peugeot 308</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
     <div class="driver-card">
       <p><strong>Nome:</strong> Mohamed Ali</p>
@@ -165,11 +177,16 @@
       <p><strong>Auto:</strong> Ford Focus</p>
       <button>Seleziona</button>
     </div>
+    <div id="recensioni-container" style="display: none;">
+    <h3>Recensioni del Driver</h3>
+    <div id="recensioni"></div>
+</div>
     
   </div>
 
   <footer>
     &copy; 2025 trustGO!
   </footer>
+ <script src="script.js"></script> 
 </body>
 </html>
